@@ -3,10 +3,10 @@ apiVersion: skaffold/v2alpha4
 kind: Config
 build:
   artifacts:
-  - image: gcr.io/terra-kernel-k8s/kernel-service-poc
+  - image: gcr.io/terra-kernel-k8s/dataprovider
     context: ../
     jib: {}
 deploy:
   kustomize:
     paths:
-    - kernel-service-poc-config/NAMESPACE
+    - dataprovider-config/NAMESPACE

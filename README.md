@@ -1,9 +1,6 @@
-# kernel-service-poc
-This repository started as a proof-of-concept. It is expanding to serve as a template
-project for MC Terra services.
+# Data Provider Service
 
-In general, once you copy this project, you can search for the word "template" and
-fill in your service or some other appropriate name.
+Data Repo Entity Provider
 
 [Deliverybot Dashboard](https://app.deliverybot.dev/DataBiosphere/framework-version/branch/master)
 
